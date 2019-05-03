@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Tetrad
+comment0.text=\r\n\ Tetrad.java\ \ MM/DD/YYYY\r\n\ AP\ Computer\ Science\ A\ -\ Mr.\ Tolleson\r\n\r\n\ @author\ -\ \r\n
+comment1.params=grid\ color
+comment1.target=Tetrad(BoundedGrid,\ java.awt.Color)
+comment2.params=deltaRow\ deltaCol
+comment2.target=boolean\ translate(int,\ int)
+comment2.text=\r\n\ Postcondition\:\ Attempts\ to\ move\ this\ tetrad\ deltaRow\ rows\ down\ and\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ deltaCol\ columns\ to\ the\ right,\ if\ those\ positions\ are\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ valid\ and\ empty.\r\n\ @return\ true\ if\ successful\ and\ false\ otherwise.\r\n\ \r\n\ @param\ deltaRow\ is\ the\ change\ in\ the\ block's\ row\ position\r\n\ @param\ deltaCol\ is\ the\ change\ in\ the\ block's\ column\ position\r\n
+comment3.params=
+comment3.target=boolean\ rotate()
+comment3.text=\ \r\n\ Postcondition\:\ Attempts\ to\ rotate\ this\ tetrad\ clockwise\ by\ 90\ degrees\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ about\ its\ center,\ if\ the\ necessary\ positions\ are\ empty.\r\n\ @return\ true\ if\ successful\ and\ false\ otherwise.\r\n
+comment4.params=grid\ locs
+comment4.target=void\ addToLocations(BoundedGrid,\ Location[])
+comment4.text=\r\n\ Precondition\:\ \ The\ elements\ of\ blocks\ are\ not\ in\ any\ grid;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ locs.length\ \=\ 4.\r\n\ Postcondition\:\ The\ elements\ of\ blocks\ have\ been\ put\ in\ the\ grid\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ their\ locations\ match\ the\ elements\ of\ locs.\r\n\ @param\ grid\ is\ the\ BoundedGrid\ object\ that\ is\ used\ as\ the\ gameplay\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ area.\r\n\ @param\ locs\ is\ an\ Array\ of\ location\ objects\ for\ each\ block\ within\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ the\ Tetrad.\r\n
+comment5.params=
+comment5.target=Location[]\ removeBlocks()
+comment5.text=\r\n\ Precondition\:\ \ The\ elements\ of\ blocks\ are\ in\ the\ grid.\r\n\ Postcondition\:\ The\ elements\ of\ blocks\ have\ been\ removed\ from\ the\ grid\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ their\ old\ locations\ returned.\r\n\ @return\ an\ Array\ of\ location\ objects\ for\ each\ block\ within\ the\ Tetrad\r\n\ \ \ \ \ \ \ \ \ that\ is\ removed\ from\ the\ grid.\r\n
+comment6.params=grid\ locs
+comment6.target=boolean\ areEmpty(BoundedGrid,\ Location[])
+comment6.text=\r\n\ Postcondition\:\ Returns\ true\ if\ each\ of\ the\ elements\ of\ locs\ is\ valid\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ empty\ in\ grid;\ false\ otherwise.\r\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Randomizer
+comment1.params=
+comment1.target=Randomizer()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Randomizer\r\n
+comment2.params=
+comment2.target=java.awt.Color\ randomColor()
+comment3.params=color
+comment3.target=java.lang.String\ nextShape(java.awt.Color)
+comment4.params=y
+comment4.target=int\ sampleMethod(int)
+comment4.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=5

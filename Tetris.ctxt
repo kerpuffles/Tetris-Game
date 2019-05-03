@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Tetris
+comment1.params=
+comment1.target=Tetris()
+comment10.params=duration
+comment10.target=void\ sleep(double)
+comment10.text=\r\n\ Suspends\ the\ active\ thread\ for\ a\ duration\r\n\ @param\ duration\ the\ length\ of\ time\ that\ the\ game\ is\ suspended\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ seconds\r\n
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment12.params=
+comment12.target=void\ retry()
+comment2.params=
+comment2.target=void\ rightPressed()
+comment3.params=
+comment3.target=void\ leftPressed()
+comment4.params=
+comment4.target=void\ upPressed()
+comment5.params=
+comment5.target=void\ downPressed()
+comment6.params=level
+comment6.target=void\ play(int)
+comment7.params=row
+comment7.target=boolean\ isCompletedRow(int)
+comment7.text=\r\n\ Precondition\:\ \ 0\ <\=\ row\ <\ number\ of\ rows\r\n\ Postcondition\:\ Returns\ true\ if\ every\ cell\ in\ the\ given\ row\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ occupied;\ false\ otherwise.\r\n
+comment8.params=row
+comment8.target=void\ clearRow(int)
+comment8.text=\r\n\ Precondition\:\ 0\ <\=\ row\ <\ number\ of\ rows;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ given\ row\ is\ full\ of\ blocks.\r\n\ Postcondition\:\ Every\ block\ in\ the\ given\ row\ has\ been\ removed,\ and\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ every\ block\ above\ row\ has\ been\ moved\ down\ one\ row.\r\n
+comment9.params=level
+comment9.target=boolean\ clearCompletedRows(int)
+comment9.text=\r\n\ Postcondition\:\ All\ completed\ rows\ have\ been\ cleared.\r\n
+numComments=13
